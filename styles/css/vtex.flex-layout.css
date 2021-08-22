@@ -18,7 +18,7 @@
 
 .flexRowContent--menu-link {
   background-color: #03044e;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .flexRowContent--main-header {
@@ -91,4 +91,8 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRowChild--shelf{
+  
 }

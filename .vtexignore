@@ -1,5 +1,6 @@
 .DS_Store
 .git
+.history
 node_modules/
 package.json
 .vscode/
