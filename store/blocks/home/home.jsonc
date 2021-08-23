@@ -6,11 +6,7 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
        
        "flex-layout.row#bannrs",
-      
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+       "flex-layout.row#shelf"
     ]
   },
   /* in */
@@ -42,19 +38,16 @@
       },
       
       "infinite": true, 
-      "blockClass": "carousel"
+      "blockClass": "carousel",
+      "arrowSize":"17"
     }
-  },
-  /* fim */
-
-  "rich-text#shelf-title": {
-    "props": {
-      "text": "## Summer",
-      "blockClass": "shelfTitle"
-    }
-  },
+  }, 
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children": ["list-context.product-list#demo1"],
+    "props":{
+      "blockClass":"produtosPrateleira",
+      "marginTop": 10 
+    }
   },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
@@ -62,12 +55,12 @@
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
-  },
+  }, 
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
+        "desktop": 4,
+        "tablet": 4,
         "phone": 1
       },
       "arrowSize":"12",
@@ -76,6 +69,15 @@
       "blockClass": "shelf"
     }
   }, 
+
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  
   "info-card#home": {
     "props": {
       "id": "info-card-home",

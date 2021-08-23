@@ -1,19 +1,25 @@
 /* setas slider */
 .sliderArrows{
-  margin-top: 520px;
-  
+  margin-top: 26.5vmax;
+ color: white;
 }
 
-.paginationDots{
-  color:greenyellow;
+.paginationDot--isActive{
+  color: greenyellow;
 }
-.sliderLayoutContainer--bannrs {
-  max-width: 70%;
-  margin:1%;
+.imageElement--carousel{
+  border-radius: 8vh;
 }
 .sliderLayoutContainer--carousel {
-  max-width: 70%;
+  max-width: 100%;
     margin:1%;
+    
+}
+@media screen and (min-width: 40em) {
+  .sliderLayoutContainer--carousel {
+    max-width: 70%;
+      margin:1%;
+  }
 }
 /* fim */
 

@@ -26,7 +26,7 @@
   },
   "flex-layout.row#savingsSummaryListDesktop": {
     "props": {
-      "colSizing": "auto",
+      "colSizing": "equal",
       "colGap": 3,
       "blockClass": "savingsSummaryListDesktop"
     },

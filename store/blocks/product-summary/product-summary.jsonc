@@ -9,7 +9,7 @@
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",
       "add-to-cart-button"
-    ]
+    ] 
   },
   "flex-layout.col#productRating": {
     "props": {
@@ -30,7 +30,8 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
-      "maxHeight": 300
+      "maxHeight": 300,
+      "blockClass":"produtoPrateleira"
     }
   },
 
